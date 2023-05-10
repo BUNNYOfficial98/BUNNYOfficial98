@@ -393,7 +393,7 @@ opacity: 0.5;
     <p>Schools</p>
     <br>
       <div class="w-11 bg-success p-10 mx-5 h-20 rounded-full py-1"></div>
-        <div class="w-52 bg-success mx-11 mt-3 h-9 rounded-full absolute right-1 top-0.5"></div>
+        <div class="w-52 bg-success mx-11 mt-3 h-9 rounded-full"></div>
         <div class="w-32 bg-success mx-11 mt-3 h-7 rounded-full"></div>
     <br>
     <div class="w-11 bg-success p-10 mx-5 h-20 rounded-full py-1"></div>
