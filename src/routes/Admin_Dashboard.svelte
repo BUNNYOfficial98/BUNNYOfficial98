@@ -26,6 +26,7 @@
 <style>
   body {
     background-color: rgb(224 231 255);
+    padding: 0;
   }
   header {  
   display: flex; 
@@ -81,17 +82,18 @@
       padding: 1rem;
       font-weight: bold;
     }
-    .container {
+.container {
   max-width: 805px;
-  margin: 3px auto;
+  margin: 3px;
   margin-left: 18%;
   padding: 1%;
   background-color: white;
   border-radius: 0.5rem; /* 8px */
-  
 }
+
 .container button {
   font-size: 20px;
+  margin-top: -5%;
   padding: 1px;
   background-color: rgb(59 130 246);
   color: white;
@@ -115,8 +117,8 @@
       color: white
     }
 .m-container {
-  max-width: 380px;
-  margin: 3px auto;
+  max-width: 390px;
+  margin: 1px auto;
   margin-left: 18%;
   margin-top: 25px;
   padding: 1vh;
@@ -167,13 +169,23 @@ p {
 .w3-panel {
   max-width: 805px;
   min-height: 350px;
-  margin: 2px;
-  margin-top: 25px;
+  margin: 5px;
+  margin-top: 20px;
   margin-left: 18%;
   padding: 5vh;
   background-color: white;
   border-radius: 0.5rem; /* 8px */
-  
+  top: 444px;
+left: 226px;
+width: 802px;
+height: 302px;
+/* UI Properties */
+background: var(--text-icons-btn-bg4) 0% 0% no-repeat padding-box;
+border: 1px solid var(--line-1);
+background: #FDFDFD 0% 0% no-repeat padding-box;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+opacity: 1;
 }
 .w3-panel span {
   text-align: normal;
@@ -199,14 +211,20 @@ color: #2F80ED;
 opacity: 1;
 }
 .panel {
-  
+    /* Layout Properties */
+top: 463px;
+left: 630px;
+width: 382px;
+height: 290px;
+/* UI Properties */
+opacity: 0.5;
   max-width: 350px;
   padding: 10px;
   background-color: rgb(224 231 255);
   border-radius: 0.5rem; /* 8px */
   margin: 2px auto;
   margin-right: -5px;
-  margin-top: -38%;
+  margin-top: -40%;
 }
 .panel h1 {
   font-weight: normal;
@@ -216,50 +234,40 @@ opacity: 1;
 }
 .panel p {
   text-align: start;
-  background-color: white;
+  font-size: 20px;
   
 }
 .panel span {
   background-color: white;
   border-radius: 0.5rem;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 .right-container {
   margin-right: 2%;
   margin-left: 80%;
-  margin-top: -745px;
-  padding: 5vh;
+  margin-top: -735px;
+  padding: 0;
+  height: 380px;
   background-color: white;
-  font-size: 10px;
-  text-align: left;
   border-radius: 0.5rem; /* 8px */
 }
-.right-container h1 {
-  text-align: left;
-  margin-left: 3%;
-}
-.right-container p {
-  margin-left: 3%;
-  background-color: rgb(224 231 255);
-  color: rgb(224 231 255);
-}
-.right-container span {
-  background-color: rgb(224 231 255);
+.right-container p{
   font-size: 20px;
-  color: rgb(224 231 255);
-  border-radius: 9999px;
+  text-align: start;
+  margin-left: 2%;
+  padding-top: 2%;
+  font-weight: bold;
 }
 .right-container i {
-  padding: 2px ;
-  text-align: center;
-  font-size: 25px;
-  margin-left: 1%;
+  margin: 5%;
+  font-size: 20px;
+  margin-right: 2%;
+  font-weight: bold;
 }
 .right-container h {
-  margin-left: 5px;
-  font-size: 15px;
-  text-align: center;
+  margin: 2%;
+  font-size: 18px;
 }
 
   </style>
@@ -298,7 +306,6 @@ opacity: 1;
 </aside>
 
   <main>
-
      <div class="container">
       <h1>Hello, Admin <span style="color: rgb(14 165 233);">Yukio!</span></h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -342,27 +349,59 @@ opacity: 1;
       <p>Step 4. Share the form with a school and publish it.</p>
     </div>
     <div class="panel">
-      <h1   >Published forms</h1>
-       <p class="badge">0</p>
-       <span>Untitled formmmmmmmmm</span>
-      <p class="badge">0</p>
-      <span>Untitled formmmmmmmmm</span>
-      <p class="badge">0</p>
-      <span>Untitled formmmmmmmmm</span>
-      <p class="badge">0</p>
-      <span>Untitled formmmmmmmmm</span>
-    </div>
-</div>
-<div class="right-container">
-  <span style="background-color: white; color: black; font-size: 25px;">Schools</span><br>
-  <br>
-  <p class="badge">0</p>
-  <span>HHHHHHHH</span><br>
-  <p class="badge">0</p>
-  <span>HHHHHHHH</span><br>
-  <p class="badge">0</p>
-  <span>HHHHHHHH</span><br>
-  <i class="fa-light fa-plus outline-dashed"></i>
-  <h>Create school space</h>
-</div>
+      <p>Published forms</p>
+      <div class="w-100 bg-white h-20 rounded-md">
+        <span class="badge" style="background-color:rgb(2 132 199); border-radius: 9999px; margin-left: 5px; margin-top: 6px; color: rgb(2 132 199) ;  width: 1px; ">.
+        </span>
+         <span style="font-size: 15px; font-weight: normal;">Untitled form 1 <span class="badge" style="background-color: green; font-size: 2px; height: 10px; width: 2px;">.</span>
+         <span style="font-size: 15px; font-weight: normal; margin-left: 75px;">160/416</span>
+        <div class="progress" style="height: 8px; width: 88%; align-items: absolute; margin-left: 33px; margin-top: -2%;">
+          <div class="progress-bar" role="progressbar" style="width: 45%;">
+        </div>
+      </div>
+      <div class="w-100 bg-white h-20 rounded-md">
+        <span class="badge" style="background-color:rgb(2 132 199); border-radius: 9999px; margin-left: 5px; margin-top: 6px; color: rgb(2 132 199) ;  width: 1px; ">.
+        </span>
+         <span style="font-size: 15px; font-weight: normal;">Untitled form 2    
+          <span class="badge" style="background-color: green; font-size: 2px; height: 10px; width: 2px;">.</span>
+         <span style="font-size: 15px; font-weight: normal; margin-left: 75px;">587/902</span>
+        <div class="progress" style="height: 8px; width: 88%; align-items: absolute; margin-left: 33px; margin-top: -2%;">
+          <div class="progress-bar" role="progressbar" style="width: 66%;">
+        </div>
+      </div>
+      <div class="w-100 bg-white h-20 rounded-md">
+        <span class="badge" style="background-color:rgb(2 132 199); border-radius: 9999px; margin-left: 5px; margin-top: 6px; color: rgb(2 132 199) ;  width: 1px; ">.
+        </span>
+         <span style="font-size: 15px; font-weight: normal;">Untitled form 3 <span class="badge" style="background-color: green; font-size: 2px; height: 10px; width: 2px;">.</span>
+         <span style="font-size: 15px; font-weight: normal; margin-left: 90px;">0/384</span>
+        <div class="progress" style="height: 8px; width: 88%; align-items: absolute; margin-left: 33px; margin-top: -2%;">
+          <div class="progress-bar" role="progressbar" style="width: 0%;">
+        </div>
+      </div>
+      <div class="w-100 bg-white h-20 rounded-md">
+        <span class="badge" style="background-color:rgb(2 132 199); border-radius: 9999px; margin-left: 5px; margin-top: 6px; color: rgb(2 132 199) ;  width: 1px; ">.
+        </span>
+         <span style="font-size: 15px; font-weight: normal;">Untitled form 4 <span class="badge" style="background-color: green; font-size: 2px; height: 10px; width: 2px;">.</span>
+         <span style="font-size: 15px; font-weight: normal; margin-left: 90px;">0/289</span>
+        <div class="progress" style="height: 8px; width: 88%; align-items: absolute; margin-left: 33px; margin-top: -2%;">
+          <div class="progress-bar" role="progressbar" style="width: 0%;">
+        </div>
+      </div>
 </body>
+<div>
+  <div class="right-container">
+    <p>Schools</p>
+    <br>
+      <div class="w-11 bg-success p-10 mx-5 h-20 rounded-full py-1"></div>
+        <div class="w-52 bg-success mx-11 mt-3 h-9 rounded-full absolute right-1 top-0.5"></div>
+        <div class="w-32 bg-success mx-11 mt-3 h-7 rounded-full"></div>
+    <br>
+    <div class="w-11 bg-success p-10 mx-5 h-20 rounded-full py-1"></div>
+    <div class="w-52 bg-success mx-11 mt-3 h-9 rounded-full"></div>
+    <div class="w-32 bg-success mx-11 mt-3 h-7 rounded-full"></div>
+    <br>
+    <br>
+    <i class="fa-light fa-plus outline-dashed p-3"></i>
+    <h>Create school space</h>
+  </div>
+</div>
