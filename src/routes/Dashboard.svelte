@@ -82,7 +82,7 @@
   </div>
   <div class="panel3 container mt-56 px-0.5 m-7 w-72 rounded-lg">
     <p class="text-1xl font-medium my-2 ">Published forms</p>
-    <div class="bg-white h-10 rounded-md flex items-center">
+    <div class="bg-white h-10 rounded-md flex items-center border-solid border-2 border-slate-300">
       <div class="badge rounded-full bg-blue-500 h-8 w-8 ml-2">
         <p class="text-center font-normal ml-10 text-black text-xs flex">Untitled_form1 <span><div class="badge bg-green-400 h-2 w-2 ml-2 my-1 rounded-full"></div></span> <span class="ml-10">160/436</span></p>
         <div class="w-52 bg-slate-100 h-2 rounded-full ml-10 my-1"> 
@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-white h-10 rounded-md flex items-center my-2">
+    <div class="bg-white h-10 rounded-md flex items-center my-2 border-solid border-2 border-slate-300">
       <div class="badge rounded-full bg-blue-500 h-8 w-8 ml-2">
         <p class="text-center font-normal ml-10 text-black text-xs flex">Untitled_form2 <span><div class="badge bg-green-400 h-2 w-2 ml-2 my-1 rounded-full"></div></span> <span class="ml-9">587/902</span></p>
         <div class="w-52 bg-slate-100 h-2 rounded-full ml-10 my-1">
@@ -98,7 +98,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-white h-10 rounded-md flex items-center my-2">
+    <div class="bg-white h-10 rounded-md flex items-center my-2 border-solid border-2 border-slate-300">
       <div class="badge rounded-full bg-blue-500 h-8 w-8 ml-2">
         <p class="text-center font-normal ml-10 text-black text-xs flex">Untitled_form3 <span><div class="badge bg-green-400 h-2 w-2 ml-2 my-1 rounded-full"></div></span> <span class="ml-12">0/384</span></p>
         <div class="w-52 bg-slate-100 h-2 rounded-full ml-10 my-1"> 
@@ -106,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-white h-10 rounded-md flex items-center my-2">
+    <div class="bg-white h-10 rounded-md flex items-center my-2 border-solid border-2 border-slate-300">
       <div class="badge rounded-full bg-blue-500 h-8 w-8 ml-2">
         <p class="text-center font-normal ml-10 text-black text-xs flex">Untitled_form4 <span><div class="badge bg-green-400 h-2 w-2 ml-2 my-1 rounded-full"></div></span> <span class="ml-12">0/289</span></p>
         <div class="w-52 bg-slate-100 h-2 rounded-full ml-10 my-1"> 
@@ -114,7 +114,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-white h-10 rounded-md flex items-center my-2">
+    <div class="bg-white h-10 rounded-md flex items-center my-2 border-solid border-2 border-slate-300">
       <div class="badge rounded-full bg-blue-500 h-8 w-8 ml-2">
         <p class="text-center font-normal ml-10 text-black text-xs flex">Untitled_form5 <span><div class="badge bg-green-400 h-2 w-2 ml-2 my-1 rounded-full"></div></span> <span class="ml-12">0/652</span></p>
         <div class="w-52 bg-slate-100 h-2 rounded-full ml-10 my-1"> 
@@ -126,7 +126,7 @@
   <br>
   
   <div class="panel4 container bg-white px-0.5 m-7 rounded-lg ">
-    <span class="text-3xl font-medium">Schools</span>
+    <span class="text-2xl font-medium">Schools</span>
     <div class="badge rounded-full bg-slate-100 mt-8 h-11 w-11 ml-2">
       <div class="badge w-32 h-6 ml-14 bg-slate-100 rounded-full"></div>
         <div class="badge w-20 h-5 ml-14 mt-1 bg-slate-100 rounded-full">
