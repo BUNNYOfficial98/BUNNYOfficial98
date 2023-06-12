@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(224 231 255);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.notification {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  width: 25px; /* 18px *//* 28px */
+  position: relative;
+  padding: 0.4em 0.6em;
+  border-radius: 9999px;
+  margin-right: 20px;
+  background-color: whitesmoke; /* add some margin to separate the notification from other elements */
+}
+.notification:hover {
+  cursor: pointer; /* change the cursor to a pointer on hover */
+  background-color: #153ef3;
+  color: white;/* add a light gray background color */
+}
+
+/* Make badge responsive */
+.badges {
+  border-radius: 9999px;
+
+  margin-right: 20px;
+  position: relative;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  padding: 0.4em 0.6em;
+  background-color: #153ef3;
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .badges {
+    font-size: 1.2em;
+    padding: 0.15em 0.4em;
+  }
+}
+
+.blue-bg {
+  background-color: rgb(224 231 255);
+  padding: 15px;
+  color: blue;
+  border-radius: 0.5rem; /* 8px */
+}
+.m1 {
+  max-height: 10rem; /* 160px */
+  margin-top: -45px;
+  width: 380px;
+}
+@media screen and (max-width: 768px) {
+  .m1 {
+    font-size: 1.2em;
+    padding: 0.15em 0.4em;
+  }
+}
+.m1 p {
+  margin-top: 15px;
+  padding: 1%;
+  text-align: left;
+  display: flex;
+}
+.m2 {
+  max-height: 10rem; /* 160px */
+  margin: auto 645px;
+  margin-top: -143px;
+  width: 380px;
+}
+@media screen and (max-width: 768px) {
+  .m2 {
+    font-size: 1.2em;
+    padding: 0.15em 0.4em;
+  }
+}
+.panel {
+  background-color: white;
+  height: 370px;
+}
+@media screen and (max-width: 768px) {
+  .panel {
+    font-size: 1.2em;
+    padding: 0.15em 0.4em;
+  }
+}
+.panel p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.inside-panel {
+  max-width: 340px; 
+  padding: 20px;
+  background-color: rgb(224 231 255);
+  border: solid 2px rgb(89, 141, 255);
+}
+.inside-panel p {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 2px;
+  color: rgb(89, 141, 255);
+}
+.panel3 {
+  background-color: rgb(224 231 255);
+  margin: auto 420px;
+  max-width: 340px; 
+  padding: 2vh;
+  margin-top: -220px;
+  font-weight: 700;
+  height: 305px;
+}
+.panel4 {
+  height: 335px;
+  margin-top: -730px;
+  margin-left: 790px;
+  width: 250px;
+}
+.panel4 p {
+  font-size: 14px;
+}
+.row {
+  width: 249px;
+  height: 1px;
+  margin-left: 0px;
+}
