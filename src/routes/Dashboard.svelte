@@ -43,9 +43,9 @@
   <span class="text-2xl font-medium">Schools</span><br>
   <div class="flex justify-end">
     <span class="mr-64 text-4xl">0</span><br>
-    <div class="icon flex flex-col items-end">
+    <div class="icon flex mx-2 flex-col items-end">
       <span class="hover:text-blue-500 cursor-pointer">
-        <i class="fa fa-flag blue-bg"></i>
+        <i class="fa fa-flag blue-bg mx-2"></i>
         <span>View all</span>
       </span>
     </div>
@@ -56,9 +56,9 @@
   <span class="text-2xl font-medium">Forms</span><br>
   <div class="flex justify-end">
     <span class="mr-64 text-4xl">0</span><br>
-    <div class="icon flex flex-col items-end">
+    <div class="icon flex mx-2 flex-col items-end">
       <span class="hover:text-blue-500 cursor-pointer">
-        <i class="fa fa-file blue-bg"></i>
+        <i class="fa fa-file blue-bg mx-2"></i>
         <span>View all</span>
       </span>
     </div>
