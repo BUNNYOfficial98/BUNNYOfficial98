@@ -1,11 +1,13 @@
 <!-- Notification Header -->
-<div class="header">
-  <span class="notification">
-    <i class="fa-regular fa-bell"></i>
-</span>
-<span class="hover:text-blue-500 cursor-pointer">
-  <span class="badges">P</span>
-</span>
+<div class="flex items-center justify-end space-x-4">
+  <span class="n relative mt-5">
+    <span class="absolute top-0 right-0 inline-flex items-center justify-center w-10 h-9  bg-blue-500 text-white text-lg rounded-full">
+      P
+    </span>
+    <span class="notification">
+      <i class="fa-regular fa-bell mt-2"></i>
+    </span>
+  </span>
 </div>
 <!-- Side Navigation -->
 <div class="side-nav fixed left-0 top-0 h-full w-52 flex flex-col bg-white">
@@ -13,12 +15,10 @@
     <!-- svelte-ignore a11y-missing-attribute -->
     <img src="./logo.png" class="my-4 mx-2.5">
   </div>
-
   <div class="p-2.5 mt-2 mx-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-500">
     <i class="fa-solid fa-house"></i>
     <span class="text-[15px] ml-4 color-black">Dashboard</span>
   </div>
-
   <div class="p-2.5 mt-2 mx-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-500">
     <i class="fa-solid fa-users"></i>
     <span class="text-[15px] ml-4 color-black">My surveys</span>
@@ -27,20 +27,18 @@
     <i class="fa fa-file"></i>
     <span class="text-[15px] ml-4 color-black">Forms </span>
   </div>
-
   <div class="p-2.5 mt-2 mx-2.5 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-500">
     <i class="fa fa-pie-chart"></i>
     <span class="text-[15px] ml-4 color-black">Analytics</span>
   </div>
 </div>
 <!-- Dashboard -->
-<div class="container m-72 my-20 px-4 ml-64 max-w-3xl bg-white rounded-lg ">
+<div class="container m-20 mt-8 px-4 ml-64 max-w-3xl bg-white rounded-lg ">
   <h1 class="text-left text-2xl md:text-4xl mt-8">Hello, Admin <span class="text-blue-500">Yukio!</span></h1>
   <p class="text-left mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   <button class="block mx-auto mt-4 px-4 py-2 ml-0 bg-blue-500 text-white rounded hover:bg-blue-600">Create form</button>
   <br>
 </div>
-
 <div class=" m1 container ml-64 m-72 my-1 px-4 space-y-3.5 p-0 bg-white rounded-lg ">
   <span class="text-2xl font-medium">Schools</span><br>
   <div class="flex justify-end">
@@ -54,7 +52,6 @@
   </div>
   <span class="font-medium">Registered Schools</span>
 </div>
-
 <div class=" m2 container m-72 px-4 my-auto mt-80 space-y-3.5 p-0 bg-white rounded-lg  ">
   <span class="text-2xl font-medium">Forms</span><br>
   <div class="flex justify-end">
@@ -68,7 +65,6 @@
   </div>
   <span class="font-medium">Current Forms</span>
 </div>
-
 <div class="panel container ml-64 mt-9 m-72 my-11 px-4 max-w-3xl  rounded-lg ">
   <span class="text-2xl font-medium">Published forms</span>
   <p>The public forms well be displayed here. These</p>
@@ -124,7 +120,6 @@
     </div>
   </div>
   <br>
-  
   <div class="panel4 container bg-white px-0.5 m-7 rounded-lg ">
     <span class="text-2xl font-medium">Schools</span>
     <div class="badge rounded-full bg-slate-100 mt-8 h-11 w-11 ml-2">
@@ -132,18 +127,14 @@
         <div class="badge w-20 h-5 ml-14 mt-1 bg-slate-100 rounded-full">
       </div>
     </div>
-    
       <div class="badge rounded-full bg-slate-100 mt-8 h-11 w-11 ml-2">
         <div class="badge w-32 h-6 ml-14 bg-slate-100 rounded-full"></div>
           <div class="badge w-20 h-5 ml-14 mt-1 bg-slate-100 rounded-full">
         </div>
-      
-      
         <div class="badge rounded-full bg-slate-100 mt-8 h-11 w-11 ml-2">
           <div class="badge w-32 h-6 ml-14 bg-slate-100 rounded-full"></div>
             <div class="badge w-20 h-5 ml-14 mt-1 bg-slate-100 rounded-full">
           </div>
-        
         <div class="row bg-slate-100">
           <br>
           <span class="hover:text-blue-500 cursor-pointer">
@@ -151,10 +142,15 @@
               <i class="bi bi-plus-square-dotted flex mt-4  ml-10"> </i>
               <span class="txt flex font-medium">Create school space</span>
             </span>             
-            
           </span>
           </div>
       </div>
     </div>
       </div>
     </div>
+    <!-- <footer class="bg-slate-500 h-20">
+      <p class="text-white text-center ml-52 font-black"> © COPYRIGHT JUVANE ARCENAS 2023 <br>
+        <span>WELA-WEbDEV-Intern</span><br>
+        <span>email: bunnytv112798@gmail.com</span>
+      </p>
+    </footer> -->
