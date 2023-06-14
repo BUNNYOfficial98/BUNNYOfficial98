@@ -43,7 +43,7 @@
   <span class="text-2xl font-medium">Schools</span><br>
   <div class="flex justify-end">
     <span class="mr-64 text-4xl">0</span><br>
-    <div class="icon flex mx-2 flex-col items-end">
+    <div class="icon flex mx-2 flex-col items-end ">
       <span class="hover:text-blue-500 cursor-pointer">
         <i class="fa fa-flag blue-bg mx-2"></i>
         <span>View all</span>
@@ -65,19 +65,19 @@
   </div>
   <span class="font-medium">Current Forms</span>
 </div>
-<div class="panel container ml-64 mt-9 m-72 my-11 px-4 max-w-3xl  rounded-lg ">
+<div class="panel container  ml-64 mt-9 m-72 my-11 px-4 max-w-3xl  rounded-lg ">
   <span class="text-2xl font-medium">Published forms</span>
   <p>The public forms well be displayed here. These</p>
   <p>are the steps for creating and letting the students</p>
   <p>see it.</p>
-  <div class="inside-panel mt-3 m-1 max-w-xs rounded-lg  ">
+  <div class="inside-container mt-3 m-8 max-w-xs rounded-lg p-8">
     <p>Step 1. Create a school in my survey in the side navigation.</p>
     <p>Step 2. Go to forms in the side navigation.</p>
     <p>Step 3. Select create form and edit.</p>
     <p>Step 4. Share the form with a school and publish it.</p>
   </div>
-  <div class="panel3 container mt-56 px-0.5 m-7 w-72 rounded-lg">
-    <p class="text-1xl font-medium my-2 ">Published forms</p>
+  <div class="container3 container px-0.5 m-7 w-72 rounded-lg">
+    <h3 class="text-2xl font-normal my-2 ">Published forms</h3>
     <div class="bg-white h-10 rounded-md flex items-center border-solid border-2 border-slate-300">
       <div class="badge rounded-full bg-blue-500 h-8 w-8 ml-2">
         <p class="text-center font-normal ml-10 text-black text-xs flex">Untitled_form1 <span><div class="badge bg-green-400 h-2 w-2 ml-2 my-1 rounded-full"></div></span> <span class="ml-10">160/436</span></p>
@@ -120,34 +120,37 @@
     </div>
   </div>
   <br>
-  <div class="panel4 container bg-white px-0.5 m-7 rounded-lg ">
+  <div class="container4 container bg-white px-0.5 m-7 rounded-lg ">
     <span class="text-2xl font-medium">Schools</span>
     <div class="badge rounded-full bg-slate-100 mt-8 h-11 w-11 ml-2">
       <div class="badge w-32 h-6 ml-14 bg-slate-100 rounded-full"></div>
         <div class="badge w-20 h-5 ml-14 mt-1 bg-slate-100 rounded-full">
       </div>
     </div>
+    <hr class="mt-3">
       <div class="badge rounded-full bg-slate-100 mt-8 h-11 w-11 ml-2">
         <div class="badge w-32 h-6 ml-14 bg-slate-100 rounded-full"></div>
           <div class="badge w-20 h-5 ml-14 mt-1 bg-slate-100 rounded-full">
         </div>
+    </div>
+        <hr class="mt-3">
         <div class="badge rounded-full bg-slate-100 mt-8 h-11 w-11 ml-2">
           <div class="badge w-32 h-6 ml-14 bg-slate-100 rounded-full"></div>
             <div class="badge w-20 h-5 ml-14 mt-1 bg-slate-100 rounded-full">
           </div>
-        <div class="row bg-slate-100">
+        </div>
+          <hr class="mt-3">
           <br>
-          <span class="hover:text-blue-500 cursor-pointer">
+          <div class="row">
             <span class="hover:text-blue-500 cursor-pointer">
-              <i class="bi bi-plus-square-dotted flex mt-4  ml-10"> </i>
-              <span class="txt flex font-medium">Create school space</span>
-            </span>             
-          </span>
+              <span class="hover:text-blue-500 cursor-pointer">
+                <i class="bi bi-plus-square-dotted flex mt-0  ml-10"> </i>
+                <span class="txt flex font-medium">Create school space</span>
+              </span>             
+            </span>
+          </div>
           </div>
       </div>
-    </div>
-      </div>
-    </div>
     <!-- <footer class="bg-slate-500 h-20">
       <p class="text-white text-center ml-52 font-black"> © COPYRIGHT JUVANE ARCENAS 2023 <br>
         <span>WELA-WEbDEV-Intern</span><br>
